@@ -801,7 +801,7 @@ only screen and (max-device-width : 550px){
 =================================================================================*/
 
 .sidebar {
-	position: relative;
+	
 }
 
 .search-widget{
@@ -897,8 +897,8 @@ footer .social-share li a i {
 
 @media (min-width: 992px) {
 	.sidebar {
-		position: fixed;
-		left: 66.67%;
+		position: relative;
+		left: 6.67%;
 		right: 6.5%;
 	}
 
