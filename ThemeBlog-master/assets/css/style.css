@@ -1012,6 +1012,7 @@ footer .footer-nav li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	border: none;
 }
 
 .bttnOrange {
