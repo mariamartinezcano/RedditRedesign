@@ -31,13 +31,31 @@
 	height: 50px;
 }
 
-.bA {
+.login {
 	width: 123px;
 	height: 38px;
 	background-color: #ff4500;
 	border-radius: 10px;
 	color: white;
 	border: none;
+}
+
+.dropDown {
+	border: 1px solid #757575;
+	height: 30px;
+	width: fit-content;
+	border-radius: 10px;
+}
+.buttonL {
+	margin-left: 15px;
+}
+.buttonR {
+	margin-right: 15px;
+}
+
+.navDisplay {
+	display: flex;
+	justify-content: space-evenly;
 }
 
 .navContainer {
