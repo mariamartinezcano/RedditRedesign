@@ -532,12 +532,13 @@ input[type="checkbox"] {
    
 .header-wrapper .search-widget {
 	margin: 15px auto;
-	width: 50%;
+	width: 50%;  
+
 }
 
 .header-wrapper .search-widget .input-group .form-control {
 	padding: 10px 20px;
-	width: 5px;
+	width: 50%;
 }
 
 .design-inspiration-item {
