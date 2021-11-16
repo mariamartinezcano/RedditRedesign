@@ -38,6 +38,7 @@
 .navbar-default {
 	background-color: white;
 	border: none;
+	
 }
 
 .navbar-default .navbar-nav>.active>a, 
@@ -527,9 +528,11 @@ input[type="checkbox"] {
     text-shadow: none;
 }
 
+
+   
 .header-wrapper .search-widget {
 	margin: 15px auto;
-	width:500px;
+	width: 50%;
 }
 
 .header-wrapper .search-widget .input-group .form-control {
@@ -758,6 +761,7 @@ only screen and (max-device-width : 550px){
 	margin-bottom: 15px;
 }
 
+
 .search-widget .input-group .form-control,
 .subscribe-widget .input-group .form-control {
 	background-color: #ffffff;
@@ -786,13 +790,7 @@ only screen and (max-device-width : 550px){
 	display: block;
 }
 
-.template-images .overlay {
-	position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.45);
-    top: 0;
-}
+
 
 .subscribe-widget {
  	margin: 28px 0px;
@@ -895,7 +893,7 @@ footer .social-share {
 }
 
 footer .social-share li a i {
-	background-color: #ffffff;
+	background-color: white;
 	border-radius: 50%;
 	border: 1px solid #1E1E1E;
 }
