@@ -991,6 +991,7 @@ footer .footer-nav li {
 .icons{
 	display: flex;
 	padding: 10px;
+	
 }
 .arrows{
 	display: flex;
@@ -1036,4 +1037,8 @@ footer .footer-nav li {
 .bttnBlue :hover {
 	background-color: #588bd7;
 	color: white;
+}
+
+.line {
+	padding-left: 20%;
 }
