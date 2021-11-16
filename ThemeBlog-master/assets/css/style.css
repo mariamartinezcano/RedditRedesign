@@ -7,12 +7,32 @@
 .navbar {
 	margin-bottom: 0px;
 	height: 100px;
+	display: inline-block;
+}
 
+.inline-block {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.navbar-header {
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+	width:inherit;
+}
+
+.bA {
+	width: 123px;
+	height: 38px;
+	background-color: #ff4500;
+	border-radius: 10px;
+	color: white;
+	border: none;
 }
 
 .navContainer {
 	margin: 0px;
-	display: inlineb;
 }
 
 .navbar-default {
@@ -151,13 +171,31 @@ h1 {
 }
 
 h2 {
-	font-size: 22px;
+	font-size: 28px;
 	line-height: 1.36em;
 	margin-bottom: 15px; 
 }
 
 h3 {
+	font-size: 25px;
+}
+
+h4 {
 	font-size: 20px;
+}
+
+h5 {
+	font-size: 13px;
+}
+
+h6 {
+	font-size: 13px;
+	color: grey;
+}
+
+p {
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
 }
 
 .alert {
@@ -268,10 +306,12 @@ form {
 	box-shadow: none;
 	height: auto;
 	padding: 14px 28px;
+
 }
 
 textarea.form-control {
     margin-bottom: 20px;
+
 }
 
 input[type="checkbox"] {
@@ -515,6 +555,9 @@ input[type="checkbox"] {
 
 .header-wrapper .search-widget .input-group .form-control {
 	padding: 10px 20px;
+	width: 50%;
+
+	
 }
 
 .design-inspiration-item {
@@ -751,16 +794,19 @@ margin: 0px;
 	border-radius: 0px;
 	box-shadow: none;
 	height: auto;
-	padding: 14px 28px;
-	width: px;
+	padding: 14px 28px 14px 0px;
+	width: 450px;
+
+
 }
 .search-widget .input-group a.input-group-addon,
 .subscribe-widget .input-group a.input-group-addon {
 	border: none;
-	border-radius: 0px;
-    color: #E4840D;
-    background-color: #1E1E1E;
-	
+    color: #979797;
+	width: fit-content;
+	background-color: white;
+	padding:0px
+
 }
 
 .template-images {
@@ -904,4 +950,25 @@ footer .footer-nav li {
 	footer .social-share {
 		margin: 20px 0px;
 	}
+}
+
+/*============================================================================
+							Maria
+=============================================================================*/
+.icons{
+	display: flex;
+	padding: 10px;
+}
+.arrows{
+	display: flex;
+    flex-direction: row;
+	
+}
+.otherIcons{
+	display: flex;
+	flex-direction: row;
+	margin-left: 30px;
+}
+.footerList{
+	list-style: none;
 }
