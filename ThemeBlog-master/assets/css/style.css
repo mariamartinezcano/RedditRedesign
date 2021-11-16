@@ -6,12 +6,19 @@
 
 .navbar {
 	margin-bottom: 0px;
+	height: 100px;
+
+}
+
+.navContainer {
+	margin: 0px;
+	display: inlineb;
 }
 
 .navbar-default {
-	background-color: #1E1E1E;
+	background-color: white;
 	border: none;
-	box-shadow: 0px 1px 1px #A96113;
+	
 }
 
 .navbar-default .navbar-nav>.active>a, 
@@ -120,6 +127,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	line-height: 1.82em;
+	margin-top: 125px;
 }
 
 a {
@@ -516,9 +524,11 @@ input[type="checkbox"] {
     text-shadow: none;
 }
 
+
+   
 .header-wrapper .search-widget {
 	margin: 15px auto;
-	width: 80%;
+	width: 50%;
 }
 
 .header-wrapper .search-widget .input-group .form-control {
@@ -746,6 +756,7 @@ only screen and (max-device-width : 550px){
 	margin-bottom: 15px;
 }
 
+
 .search-widget .input-group .form-control,
 .subscribe-widget .input-group .form-control {
 	background-color: #ffffff;
@@ -755,6 +766,7 @@ only screen and (max-device-width : 550px){
 	box-shadow: none;
 	height: auto;
 	padding: 14px 28px;
+	width: px;
 }
 .search-widget .input-group a.input-group-addon,
 .subscribe-widget .input-group a.input-group-addon {
@@ -762,6 +774,7 @@ only screen and (max-device-width : 550px){
 	border-radius: 0px;
     color: #E4840D;
     background-color: #1E1E1E;
+	
 }
 
 .template-images {
@@ -769,13 +782,7 @@ only screen and (max-device-width : 550px){
 	display: block;
 }
 
-.template-images .overlay {
-	position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.45);
-    top: 0;
-}
+
 
 .subscribe-widget {
  	margin: 28px 0px;
@@ -878,7 +885,7 @@ footer .social-share {
 }
 
 footer .social-share li a i {
-	background-color: #ffffff;
+	background-color: white;
 	border-radius: 50%;
 	border: 1px solid #1E1E1E;
 }
