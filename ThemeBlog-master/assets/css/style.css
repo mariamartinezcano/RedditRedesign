@@ -7,12 +7,32 @@
 .navbar {
 	margin-bottom: 0px;
 	height: 100px;
+	display: inline-block;
+}
 
+.inline-block {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.navbar-header {
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+	width:inherit;
+}
+
+.bA {
+	width: 123px;
+	height: 38px;
+	background-color: #ff4500;
+	border-radius: 10px;
+	color: white;
+	border: none;
 }
 
 .navContainer {
 	margin: 0px;
-	display: inlineb;
 }
 
 .navbar-default {
@@ -267,10 +287,12 @@ form {
 	box-shadow: none;
 	height: auto;
 	padding: 14px 28px;
+
 }
 
 textarea.form-control {
     margin-bottom: 20px;
+
 }
 
 input[type="checkbox"] {
@@ -507,11 +529,12 @@ input[type="checkbox"] {
 
 .header-wrapper .search-widget {
 	margin: 15px auto;
-	width: 80%;
+	width:500px;
 }
 
 .header-wrapper .search-widget .input-group .form-control {
 	padding: 10px 20px;
+	width: 5px;
 }
 
 .design-inspiration-item {
@@ -743,16 +766,19 @@ only screen and (max-device-width : 550px){
 	border-radius: 0px;
 	box-shadow: none;
 	height: auto;
-	padding: 14px 28px;
-	width: px;
+	padding: 14px 28px 14px 0px;
+	width: 450px;
+
+
 }
 .search-widget .input-group a.input-group-addon,
 .subscribe-widget .input-group a.input-group-addon {
 	border: none;
-	border-radius: 0px;
-    color: #E4840D;
-    background-color: #1E1E1E;
-	
+    color: #979797;
+	width: fit-content;
+	background-color: white;
+	padding:0px
+
 }
 
 .template-images {
