@@ -20,6 +20,15 @@
 	display: inline-block;
 	vertical-align: top;
 	width:inherit;
+	height: 50px;
+}
+
+.navbar-header2 {
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+	width:inherit;
+	height: 50px;
 }
 
 .bA {
