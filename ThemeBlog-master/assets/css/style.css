@@ -20,18 +20,27 @@
 	height: 50px;
 }
 
+/*spacing for drop down filters */
 .navbar-header2 {
 	width: 100%;
 	align-content: center;
 }
 
+/*spacing for drop down filters */
 .dropSpacing {
 	height: fit-content;
 	margin: 0px 0px;
 	display: inline-block;
-	width: 30%;
+	width: 500px;
 }
 
+/*adds a border and curves to search bar*/
+.searchBorder {
+	border: 1px solid #757575;
+	border-radius: 40px;
+}
+
+/*styles login button*/
 .login {
 	width: 123px;
 	height: 38px;
@@ -39,17 +48,28 @@
 	border-radius: 10px;
 	color: white;
 	border: none;
+	margin-top: 1px;
 }
 
+/*margin for login/settings buttons*/
+.marginTop {
+	margin-top: 10px;
+}
+
+/*dropdown search filter styling */
 .dropDown {
 	border: 1px solid #757575;
 	height: 30px;
 	width: fit-content;
 	border-radius: 10px;
 }
+
+/*margin inside dropdown filters so content isnt squished */
 .buttonL {
 	margin-left: 15px;
 }
+
+/*margin inside dropdown filters so content isnt squished */
 .buttonR {
 	margin-right: 15px;
 }
@@ -334,7 +354,7 @@ form {
 
 .form-control {
 	background-color: #f9f9f9;
-	border: 1px solid #E0E0E0;
+	border: 1px solid #979797;
 	border-radius: 0px;
 	box-shadow: none;
 	height: auto;
@@ -821,9 +841,9 @@ margin: 0px;
 
 .search-widget .input-group .form-control,
 .subscribe-widget .input-group .form-control {
-	background-color: #ffffff;
+	background-color:#f4f4f4;
 	/*border: 1px solid #CACACA;*/
-	border: transparent;
+
 	border-radius: 0px;
 	box-shadow: none;
 	height: auto;
@@ -837,7 +857,7 @@ margin: 0px;
 	border: none;
     color: #979797;
 	width: fit-content;
-	background-color: white;
+	background-color: #f4f4f4;
 	padding:0px
 
 }
