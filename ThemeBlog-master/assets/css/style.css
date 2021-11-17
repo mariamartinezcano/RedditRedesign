@@ -1078,6 +1078,7 @@ footer .footer-nav li {
 .bttnBlue {
 	border-radius: 25px;
 	border-color: #588bd7;
+	background-color: white;
 	color: #588bd7;
 	width: 231px;
 	height: 65px;
@@ -1091,4 +1092,13 @@ footer .footer-nav li {
 
 .line {
 	padding-left: 20%;
+}
+
+.communityHeader{
+	margin-left: 15px;
+	margin-bottom: 2%;
+}
+
+.liveStream {
+	margin-bottom: 5%;
 }
