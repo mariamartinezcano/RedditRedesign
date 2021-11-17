@@ -1107,3 +1107,14 @@ footer .footer-nav li {
 .sidebarContent {
 	padding-bottom: 5%;
 }
+
+.communityHero .bttn{
+	
+	border-radius: 25px;
+	border-color: #ff4500;
+	background-color: #ff4500;
+	color: white;
+	width: 231px;
+	height: 44px;
+	font-size: 18px;
+}
