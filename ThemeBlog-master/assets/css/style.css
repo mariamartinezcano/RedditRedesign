@@ -225,6 +225,7 @@ h1 {
 
 h2 {
 	font-size: 28px;
+	font-weight: bold;
 	line-height: 1.36em;
 	margin-bottom: 15px; 
 }
@@ -826,9 +827,6 @@ only screen and (max-device-width : 550px){
 								Sidebar
 =================================================================================*/
 
-.sidebar {
-	
-}
 
 .search-widget{
 	margin-bottom: 15px;
@@ -1036,7 +1034,7 @@ footer .footer-nav li {
 }
 
 .bttnOrange {
-	margin: 10px;
+	margin: 5%;
 	border-radius: 25px;
 	border-color: #ff4500;
 	background-color: #ff4500;
@@ -1068,5 +1066,9 @@ footer .footer-nav li {
 }
 
 .line {
-	padding-left: 20%;
+	padding-left: 10%;
+}
+
+.liveStream {
+	margin-bottom: 5%;
 }
