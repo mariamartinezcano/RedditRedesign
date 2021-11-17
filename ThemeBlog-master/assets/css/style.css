@@ -1058,7 +1058,7 @@ footer .footer-nav li {
 }
 
 .bttnOrange {
-	margin: 10px;
+	margin-bottom: 5%;
 	border-radius: 25px;
 	border-color: #ff4500;
 	background-color: #ff4500;
@@ -1091,7 +1091,7 @@ footer .footer-nav li {
 }
 
 .line {
-	padding-left: 20%;
+	padding-left: 10%;
 }
 
 .communityHeader{
@@ -1101,4 +1101,8 @@ footer .footer-nav li {
 
 .liveStream {
 	margin-bottom: 5%;
+}
+
+.sidebarContent {
+	padding-bottom: 5%;
 }
