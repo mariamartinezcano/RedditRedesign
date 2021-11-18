@@ -105,6 +105,46 @@
 	margin: 0px;
 }
 
+.containerA {
+	position: relative;
+	width: 100%;
+  }
+
+.marginBot{
+	  margin-bottom: 18px;
+  }
+
+  .containerA .btn {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	border-radius: 25px;
+    border-color: #FF4500;
+    background-color: #FF4500;
+    color: white;
+    width: 231px;
+    height: 44px;
+    font-size: 16px;	
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+  }
+
+  .containerA .btnR {
+	position: absolute;
+	top: 83%;
+	left: 50%;
+	border-radius: 25px;
+    border-color: #FF4500;
+    background-color: #FF4500;
+    color: white;
+    width: 231px;
+    height: 44px;
+    font-size: 16px;	
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	border-style: none;	
+}
+
 .navbar-default {
 	background-color: white;
 	border: none;
@@ -870,6 +910,7 @@ margin: 0px;
 	padding: 14px 28px 14px 5px;
 	width: 700px;
 }
+
 .search-widget .input-group a.input-group-addon,
 .subscribe-widget .input-group a.input-group-addon {
 	border-top: 1px solid #979797;
