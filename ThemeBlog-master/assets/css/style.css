@@ -1171,3 +1171,7 @@ footer .footer-nav li {
 	padding-bottom: 5%;
 
 }
+.trending {
+    display: flex;
+    flex-direction: row;
+}
