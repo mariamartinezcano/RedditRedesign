@@ -1055,7 +1055,7 @@ footer .footer-nav li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	border: none;
+	
 }
 
 .bttnOrange {
@@ -1067,11 +1067,11 @@ footer .footer-nav li {
 	width: 265px;
 	height: 73px;
 	font-size: 25px;
-	
+	border-style: solid;
 
 }
 
-.bttnOrange :hover {
+.bttnOrange:hover {
 	background-color: white;
 	color: #ff4500;
 }
@@ -1084,9 +1084,10 @@ footer .footer-nav li {
 	width: 231px;
 	height: 65px;
 	font-size: 25px;
+	border-style: solid;
 }
 
-.bttnBlue :hover {
+.bttnBlue:hover {
 	background-color: #588bd7;
 	color: white;
 }
@@ -1108,8 +1109,9 @@ footer .footer-nav li {
 	padding-bottom: 5%;
 }
 
+
+
 .communityHero .bttn{
-	
 	border-radius: 25px;
 	border-color: #ff4500;
 	background-color: #ff4500;
