@@ -3,14 +3,10 @@
 /*=======================================================================
 						Navigation menu
 =========================================================================*/
-
-
 .navbar {
 	margin-bottom: 0px;
 	height: 100px;
 	display: inline-block;
-
-
 }
 
 .inline-block {
@@ -18,30 +14,9 @@
 	vertical-align: top;
 }
 
-
-.navbar-header {
-	box-sizing: border-box;
-	display: inline-block;
-	vertical-align: top;
-	width:inherit;
-	height: 50px;
-
-}
-
-.navbar-header2 {
-	box-sizing: border-box;
-	display: inline-block;
-	vertical-align: top;
-	width:inherit;
-	height: 50px;
-
-}
-
-
-	.centerBox {
+.centerBox {
 	margin: 8px 0px;
 }
-
 
 .navbar-header {
 	width:100%;
@@ -80,15 +55,12 @@
 
 /*styles login button*/
 .login {
-
 	width: 123px;
 	height: 38px;
 	background-color: #ff4500;
 	border-radius: 10px;
 	color: white;
 	border: none;
-
-
 	margin-top: 8px;
 }
 
@@ -126,7 +98,6 @@
 .navDisplay2 {
 	display: flex;
 	justify-content: space-evenly;
-
 }
 
 .navContainer {
@@ -235,7 +206,6 @@
 .navbar-default .navbar-toggle:hover .icon-bar {
 	background-color: #000000;
 }
-
 /*=============================================================================
 								Global
 ================================================================================*/
