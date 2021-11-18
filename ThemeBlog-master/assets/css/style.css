@@ -126,7 +126,7 @@
 .navDisplay2 {
 	display: flex;
 	justify-content: space-evenly;
->>>>>>> f0783cd771bc81c2d4b4aa8f9be5a0432a5ea7fa
+
 }
 
 .navContainer {
@@ -241,11 +241,11 @@
 ================================================================================*/
 
 body {
-<<<<<<< HEAD
+
 	background-color: #f1eeed;
-=======
+
 	background-color: #dbe0e5;
->>>>>>> f0783cd771bc81c2d4b4aa8f9be5a0432a5ea7fa
+
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	line-height: 1.82em;
@@ -274,10 +274,8 @@ h1 {
 
 h2 {
 	font-size: 28px;
-<<<<<<< HEAD
-=======
 	font-weight: bold;
->>>>>>> f0783cd771bc81c2d4b4aa8f9be5a0432a5ea7fa
+
 	line-height: 1.36em;
 	margin-bottom: 15px; 
 }
@@ -407,11 +405,11 @@ form {
 
 .form-control {
 	background-color: #f9f9f9;
-<<<<<<< HEAD
+
 	border: 1px solid #E0E0E0;
-=======
+
 	border: 1px solid #979797;
->>>>>>> f0783cd771bc81c2d4b4aa8f9be5a0432a5ea7fa
+
 	border-radius: 0px;
 	box-shadow: none;
 	height: auto;
@@ -493,11 +491,7 @@ input[type="checkbox"] {
 
 .blog-item {
 	background-color: #ffffff;
-<<<<<<< HEAD
 	/*border: 1px solid #f1f1f1;*/
-=======
-
->>>>>>> f0783cd771bc81c2d4b4aa8f9be5a0432a5ea7fa
 	margin-bottom: 5px;
 	padding: 30px;
 }
@@ -532,14 +526,14 @@ input[type="checkbox"] {
 	margin-bottom: 30px;
 	padding: 15px 45px;
 	text-align: justify;
-<<<<<<< HEAD
+
 	font-family: 'Roboto', sans-serif;;
 }
 .title {
 font-weight: bold;
-=======
+
 	border-radius: 10px;
->>>>>>> f0783cd771bc81c2d4b4aa8f9be5a0432a5ea7fa
+
 }
 
 .single-blog-item h1 {
@@ -673,19 +667,14 @@ font-weight: bold;
 .header-wrapper .search-widget {
 	margin: 15px auto;
 	width: 50%;
-<<<<<<< HEAD
-=======
+
 	
->>>>>>> f0783cd771bc81c2d4b4aa8f9be5a0432a5ea7fa
+
 }
 
 .header-wrapper .search-widget .input-group .form-control {
 	padding: 10px 20px;
 	width: 50%;
-<<<<<<< HEAD
-
-=======
->>>>>>> f0783cd771bc81c2d4b4aa8f9be5a0432a5ea7fa
 	
 }
 
@@ -902,12 +891,11 @@ only screen and (max-device-width : 550px){
 								Sidebar
 =================================================================================*/
 
-<<<<<<< HEAD
+
 .sidebar {
 	position: relative;
 }
-=======
->>>>>>> f0783cd771bc81c2d4b4aa8f9be5a0432a5ea7fa
+
 
 .search-widget{
 	margin-bottom: 15px;
@@ -920,7 +908,7 @@ margin: 0px;
 
 .search-widget .input-group .form-control,
 .subscribe-widget .input-group .form-control {
-<<<<<<< HEAD
+
 	background-color: #ffffff;
 	/*border: 1px solid #CACACA;*/
 	border: transparent;
@@ -933,26 +921,14 @@ margin: 0px;
 
 }
 .search-widget .input-group a.input-group-addon,
+
 .subscribe-widget .input-group a.input-group-addon {
 	border: none;
     color: #979797;
 	width: fit-content;
 	background-color: white;
 	padding:0px
-
-=======
-	background-color:#f4f4f4;
-	/*border: 1px solid #CACACA;*/
-	border-top: 1px solid #979797 !important;
-	border-right: 1px solid #979797 !important;
-	border-bottom: 1px solid #979797 !important;
-	border-bottom-right-radius: 10px;
-	border-top-right-radius: 10px;
-	border-left: none;
-	box-shadow: none;
-	height: 40px;
-	padding: 14px 28px 14px 5px;
-	width: 700px;
+	
 }
 .search-widget .input-group a.input-group-addon,
 .subscribe-widget .input-group a.input-group-addon {
@@ -965,7 +941,7 @@ margin: 0px;
 	padding:0px 0px 0px 5px;
 	border-bottom-left-radius:10px;
 	border-top-left-radius: 10px;
->>>>>>> f0783cd771bc81c2d4b4aa8f9be5a0432a5ea7fa
+
 }
 
 .template-images {
@@ -1029,13 +1005,13 @@ footer .social-share li a i {
 
 @media (min-width: 992px) {
 	.sidebar {
-<<<<<<< HEAD
+
 		position: fixed;
 		left: 66.67%;
-=======
+
 		position: relative;
 		left: 6.67%;
->>>>>>> f0783cd771bc81c2d4b4aa8f9be5a0432a5ea7fa
+
 		right: 6.5%;
 	}
 
@@ -1122,10 +1098,7 @@ footer .footer-nav li {
 .icons{
 	display: flex;
 	padding: 10px;
-<<<<<<< HEAD
-=======
-	
->>>>>>> f0783cd771bc81c2d4b4aa8f9be5a0432a5ea7fa
+
 }
 .arrows{
 	display: flex;
@@ -1136,12 +1109,11 @@ footer .footer-nav li {
 	display: flex;
 	flex-direction: row;
 	margin-left: 30px;
-<<<<<<< HEAD
 	
 }
 .footerList{
 	list-style: none;
-=======
+
 }
 
 .spacing {
@@ -1196,5 +1168,5 @@ footer .footer-nav li {
 }
 .sidebarContent {
 	padding-bottom: 5%;
->>>>>>> f0783cd771bc81c2d4b4aa8f9be5a0432a5ea7fa
+
 }
