@@ -645,7 +645,7 @@ font-weight: bold;
 .header-wrapper .search-widget .input-group .form-control {
 	padding: 10px 20px;
 	width: 50%;
-	
+
 }
 
 .design-inspiration-item {
@@ -879,15 +879,19 @@ margin: 0px;
 .search-widget .input-group .form-control,
 .subscribe-widget .input-group .form-control {
 
-	background-color: #ffffff;
+	background-color: #f4f4f4;
 	/*border: 1px solid #CACACA;*/
 	border: transparent;
-	border-radius: 0px;
+	border-radius: ;
 	box-shadow: none;
 	height: auto;
 	padding: 14px 28px 14px 0px;
 	width: 450px;
-
+	border-top: 1px solid #979797;
+	border-right: 1px solid #979797;
+	border-bottom: 1px solid #979797;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 
 }
 .search-widget .input-group a.input-group-addon,
